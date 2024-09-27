@@ -85,15 +85,15 @@ thead th {
         }
     .content {
         order: 1; 
-        width: 60%; 
+        width: 90%; 
     }
 
     .links {
         order: 2; 
-        width: 60%; 
+        width: 90%; 
     }
     .forma {
         order: 3;
-        width: 60%;
+        width: 90%;
     }   
 }
