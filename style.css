@@ -13,7 +13,7 @@
 #header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: left;
     background-color: #ff9baa;
     padding: 10px;
 }
