@@ -90,6 +90,10 @@ thead th {
 
     .links {
         order: 2; 
-        width: 35%; 
+        width: 60%; 
     }
+    .forma {
+        order: 3;
+        width: 60%
+    }   
 }
