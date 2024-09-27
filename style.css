@@ -10,10 +10,10 @@
     padding: 20px;
 }
 
-#header {
+header {
     display: flex;
     justify-content: space-between;
-    align-items: left;
+    align-items: flex-start;
     background-color: #ff9baa;
     padding: 10px;
 }
