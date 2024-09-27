@@ -50,20 +50,14 @@ main {
 }
 
 .content {
-    display: flex;
-    flex-direction: column;
     order: 1;
 }
 
 .links {
-    display: flex;
-    flex-direction: column;
     order: 2;
 }
 
 .forma {
-    display: flex;
-    flex-direction: column;
     order: 3;
 }
 
