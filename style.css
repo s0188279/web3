@@ -128,6 +128,10 @@ input:invalid ~ .alert {
         justify-content: space-between;
     }
 
+    .image{
+        width: 400px;
+    }
+
     .nav {
         flex-direction: row;
         justify-content: flex-end;
