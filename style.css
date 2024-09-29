@@ -22,6 +22,7 @@ body {
     float: left;
     bottom: 840px;
     left: 10px;
+    margin-right: 20px;
 }
 
 .header{
@@ -119,6 +120,12 @@ input:invalid ~ .alert {
 
     .header {
         flex-direction: row;
+        justify-content: flex-start; 
+        align-items: center;
+    }
+
+    .container {
+        flex-direction: column;
         justify-content: flex-start; 
         align-items: center;
     }
