@@ -125,9 +125,8 @@ input:invalid ~ .alert {
     }
 
     .container {
-        flex-direction: column;
-        justify-content: flex-start; 
-        align-items: center;
+        max-width: 960px;
+        margin: auto;
     }
 
     .content {
