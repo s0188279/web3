@@ -38,6 +38,7 @@ body {
 
 .menu {
     display: flex;
+    flex-direction: column;
     justify-content: flex-start; 
     list-style-type: none;
     padding: 0;
@@ -132,6 +133,10 @@ input:invalid ~ .alert {
 
     .nav {
         margin-right: 20px;
+    }
+
+    .menu {
+        flex-direction: row;
     }
 
     .table-container, .form-container {
