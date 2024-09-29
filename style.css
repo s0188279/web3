@@ -124,7 +124,6 @@ input:invalid ~ .alert {
 
     .content {
         flex-direction: column;
-        justify-content: space-between;
     }
 
     .image{
