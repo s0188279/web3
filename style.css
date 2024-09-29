@@ -49,7 +49,20 @@ body {
         text-decoration: none;
     }
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
 
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
 
 .content {
     display: flex;
@@ -109,16 +122,23 @@ input:invalid ~ .alert {
     }
 
     .table-container {
-        order: 1; 
+        order: 2; 
     }
 
     .links-container {
-        order: 2; 
+        order: 1; 
     }
 
     .form-container{
         order: 3;
     }
+
+    .logo {
+    width: 120px;
+    float: left;
+    bottom: 840px;
+    left: 10px;
+}
 }
 
 .warning {
