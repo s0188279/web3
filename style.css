@@ -12,7 +12,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 960px;
     margin-top: 10px;
     padding: 20px;
 }
@@ -34,8 +33,6 @@ body {
     padding: 10px 0;
 }
 .nav {
-    display: flex;
-    justify-content: center;
     width: 100%;
 }
 
@@ -124,11 +121,6 @@ input:invalid ~ .alert {
         align-items: center;
     }
 
-    .container {
-        max-width: 960px;
-        margin: auto;
-    }
-
     .content {
         flex-direction: column;
         justify-content: space-between;
@@ -139,15 +131,8 @@ input:invalid ~ .alert {
     }
 
     .nav {
-        flex-direction: row;
-        justify-content: flex-end;
         margin-right: 20px;
     }
-
-    .menu li {
-        margin-left: 20px;
-    }
-
 
     .table-container, .form-container {
         flex: 1;
