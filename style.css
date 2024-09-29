@@ -115,7 +115,7 @@ input:invalid ~ .alert {
 @media (min-width: 768px) {
 
     .header {
-        flex-direction: row;
+        flex-direction: column;
         justify-content: flex-start; 
         align-items: center;
     }
@@ -132,7 +132,11 @@ input:invalid ~ .alert {
     .nav {
         margin-right: 20px;
     }
-
+    
+    .menu {
+        flex-direction: row;
+    }
+    
     .table-container, .form-container {
         flex: 1;
         margin: 10px;
