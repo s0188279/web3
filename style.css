@@ -37,9 +37,9 @@ body {
 
 .menu {
     display: flex;
-    flex-direction: column;
     justify-content: flex-start; 
     padding: 0;
+    list-style-type: none;
 }
 
     .menu li {
@@ -130,8 +130,6 @@ input:invalid ~ .alert {
     }
 
     .nav {
-        display: flex;
-        flex-direction: row;
         margin-right: 20px;
     }
     
