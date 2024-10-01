@@ -98,15 +98,6 @@ th, td {
     background-color: #f9f9f9;
 }
 
-.alert {
-    color: red;
-    display: none;
-}
-
-input:invalid ~ .alert {
-    display: block; 
-}
-
 .footer {
     background-color: #ff99ba;
     color: white;
