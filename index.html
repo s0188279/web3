@@ -10,7 +10,15 @@
     <header class="header">
         <div class="container">
             <img src="logo.png" alt="Логотип" class="logo">
-             <h1 style="color:#333">Сайтик</h1>
+             <nav class="nav">
+                <ul class="menu">
+                    <li><a href="#home">Главная</a></li>                    
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#services">Услуги</a></li>                    
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+             </nav>
+             <h1 id="h1">Сайтик</h1>
         </div>
         <nav class="nav">
             <ul class="menu">
@@ -22,8 +30,15 @@
         </nav>
     </header>
 
+    <div class="sidebar">
+          <a href="#">Главная</a>
+          <a href="#">О нас</a>
+          <a href="#">Услуги</a>
+          <a href="#">Контакты</a>
+    </div>
+    
     <main class="content">
-        <div class="links-container">
+        <div class="links">
             <h2>Список гиперссылок</h2>
             <ul>
                 <li><a href="http://kubsu.ru">Главная страница kubsu.ru</a></li>
@@ -51,63 +66,61 @@
                 <li><a>Ссылка без href</a></li>
                 <li><a rel="nofollow" href="http://example.com">Запрещенная для перехода поисковиками</a></li>
                 <li><a href="http://example.com" rel="noindex">Запрещенная для индексации поисковиками</a></li>
-                <li>
-                    <ol>
-                        <li><a href="#" title="Первая ссылка">Первая ссылка</a></li>
-                        <li><a href="#" title="Вторая ссылка">Вторая ссылка</a></li>
-                    </ol>
-                </li>
+                <li>1.<a href="#" title="Первая ссылка">Первая ссылка</a></li>
+                <li>2.<a href="#" title="Вторая ссылка">Вторая ссылка</a></li>
                 <li><a href="ftp://user:password@example.com/myfile.zip">Ссылка на файл на сервере FTP с авторизацией</a></li>
             </ul>
         </div>
 
-        <div class="table-container">
+        <div class="tabl">
             <h2> Таблица </h2>
             <table>
-                <thead>
-                    <tr>
-                        <th colspan="2">Заголовок 1</th>
-                        <th>Заголовок 2</th>
-                        <th>Заголовок 3</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr class="odd">
-                        <td>Строка 1, ячейка 1</td>
-                        <td>Строка 1, ячейка 2</td>
-                        <td>Строка 1, ячейка 3</td>
-                        <td>Строка 1, ячейка 4</td>
-                    </tr>
-                    <tr class="even">
-                        <td>Строка 2, ячейка 1</td>
-                        <td colspan="3">Строка 2, объединенная ячейка</td>
-                    </tr>
-                    <tr class="odd">
-                        <td>Строка 3, ячейка 1</td>
-                        <td>Строка 3, ячейка 2</td>
-                        <td>Строка 3, ячейка 3</td>
-                        <td>Строка 3, ячейка 4</td>
-                    </tr>
-                    <tr class="even">
-                        <td>Строка 4, ячейка 1</td>
-                        <td>Строка 4, ячейка 2</td>
-                        <td colspan="2">Строка 4, объединенная ячейка</td>
-                    </tr>
-                    <tr class="odd">
-                        <td>Строка 5, ячейка 1</td>
-                        <td>Строка 5, ячейка 2</td>
-                        <td>Строка 5, ячейка 3</td>
-                        <td>Строка 5, ячейка 4</td>
-                    </tr>
-                    <tr class="even">
-                        <td>Строка 6, ячейка 1</td>
-                        <td colspan="3">Строка 6, объединенная ячейка</td>
-                    </tr>
-                </tbody>
-            </table>
+            <thead>
+                <tr>
+                    <th>Заголовок 1</th>
+                    <th colspan="2">Заголовок 2</th>
+                    <th>Заголовок 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Строка 1, ячейка 1</td>
+                    <td>Строка 1, ячейка 2</td>
+                    <td>Строка 1, ячейка 3</td>
+                    <td>Строка 1, ячейка 4</td>
+                </tr>
+                <tr>
+                    <td>Строка 2, ячейка 1</td>
+                    <td colspan="2">Строка 2, объединенная ячейка</td>
+                    <td>Строка 2, ячейка 4</td>
+                </tr>
+                <tr>
+                    <td>Строка 3, ячейка 1</td>
+                    <td>Строка 3, ячейка 2</td>
+                    <td rowspan="2">Столбец 3, объединённая ячейка</td>
+                    <td>Строка 3, ячейка 4</td>
+                </tr>
+                <tr>
+                    <td>Строка 4, ячейка 1</td>
+                    <td>Строка 4, ячейка 2</td>
+                    <td>Строка 4, ячейка 4</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Столбец 1, объединённая ячейка</td>
+                    <td>Строка 5, ячейка 2</td>
+                    <td>Строка 5, ячейка 3</td>
+                    <td>Строка 5, ячейка 4</td>
+                </tr>
+                <tr>
+                    <td>Строка 6, ячейка 2</td>
+                    <td>Строка 6, ячейка 3</td>
+                    <td>Строка 6, ячейка 4</td>
+                </tr>
+            </tbody>
+        </table>
         </div>
 
-        <div class="form-container">
+        <div class="formа">
             <h2>Форма</h2>
             <form action="/"
                   method="post">
