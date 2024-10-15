@@ -14,13 +14,10 @@ body {
     text-align: left;
     width: 120px;
     float: left;
-    bottom: 840px;
-    left: 10px;
 }
 
-#header{
+#header {
     background-color: #ff99ba;
-    color: white;
     padding: 10px;
 }
 
@@ -29,9 +26,23 @@ body {
     text-align: center;
 }
 
-nav {
-      visibility: hidden;
-      display: none;
+nav ul {
+    display: none;
+    font-size: 20px;
+    text-align: right;
+    list-style-type: none;
+    padding: 0;
+}
+
+    nav ul li {
+        display: inline;
+        margin-right: 15px;
+    }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+        } 
 }
 
 .sidebar,
@@ -134,7 +145,6 @@ tr:nth-child(even){
 @media (min-width: 768px) {
 
     .sidebar{
-        visibility: hidden;
         display: none;
     }
 
@@ -148,22 +158,9 @@ tr:nth-child(even){
     }
 
     nav ul {
-        font-size: 20px;
-        text-align: right;
-        list-style-type: none;
-        padding: 0;
+       display: block;
     }
-
-    nav ul li {
-        display: inline;
-        margin-right: 15px;
-    }
-
-        nav ul li a {
-            text-decoration: none;
-            color: #333;
-        }
-
+    
     .tabl {
         order: 2; 
     }
@@ -172,7 +169,7 @@ tr:nth-child(even){
         order: 1; 
     }
 
-    .forma{
+    .forma {
         order: 3;
     }
 }
