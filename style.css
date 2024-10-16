@@ -28,6 +28,12 @@ ul, li {
     padding-bottom: 20px;
 }
 
+.logo {
+    text-align: left;
+    width: 120px;
+    float: left;
+}
+  
 footer {
     width: 100%;
     background-color: #ff9baa;
