@@ -1,7 +1,6 @@
 ﻿html {
     font-family: Arial, sans-serif;
     height: 100%;
-    color: #333;
 }
 
 body {
@@ -53,7 +52,12 @@ footer {
 }
 
 .h1_k {
+    color: #333;
     display: none;
+}
+
+.h1_m {
+    color: #333;
 }
 
 ul {
@@ -110,6 +114,7 @@ tr:nth-child(even) {
 
 
 a {
+    color: #333;
     text-decoration: none;
 }
 
